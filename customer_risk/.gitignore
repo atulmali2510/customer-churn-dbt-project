@@ -1,0 +1,18 @@
+# Python virtual environment
+.venv/
+venv/
+
+# dbt folders
+target/
+logs/
+dbt_packages/
+
+# Databricks credentials
+profilePS.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/

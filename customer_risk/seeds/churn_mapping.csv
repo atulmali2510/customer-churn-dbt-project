@@ -1,0 +1,3 @@
+churn_label,churn_flag,description
+Yes,1,Customer left the service
+No,0,Customer retained

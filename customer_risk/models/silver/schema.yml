@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  # Silver cleaned model ke liye tests define kar rahe hain
+  - name: silver_retention_risk_analytics
+    description: "Cleaned customer retention risk dataset"
+
+    columns:
+      # customer_id har row me hona chahiye aur unique hona chahiye
+      - name: customer_id
+        description: "Unique customer identifier"
+        tests:
+          - not_null      # customer_id NULL nahi hona chahiye
+          - unique        # customer_id duplicate nahi hona chahiye
+
+      # churn column me valid values honi chahiye
+      - name: churn
+        description: "Customer churn status"
+        tests:
+          - not_null      # churn empty/NULL nahi hona chahiye
+          - accepted_values:
+              arguments:
+                values: ['Yes', 'No']   # churn sirf Yes ya No hona chahiye
+
+      # senior_citizen column me value honi chahiye
+      - name: senior_citizen
+        description: "Senior citizen flag"
+        tests:
+          - not_null      # NULL nahi hona chahiye
+
+      # tenure column me value honi chahiye
+      - name: tenure
+        description: "Customer tenure in months"
+        tests:
+          - not_null      # tenure NULL nahi hona chahiye
+
+      # monthly_charges column me value honi chahiye
+      - name: monthly_charges
+        description: "Monthly charges amount"
+        tests:
+          - not_null      # monthly_charges NULL nahi hona chahiye
+
+      # total_charges column me value honi chahiye
+      - name: total_charges
+        description: "Total charges amount"
+        tests:
+          - not_null      # total_charges NULL nahi hona chahiye
