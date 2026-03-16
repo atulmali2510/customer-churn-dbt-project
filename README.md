@@ -8,9 +8,7 @@ This project demonstrates modern **ELT pipelines, data modeling, and analytics e
 
 # Project Architecture
 
-<p align="center">
-<img src="image/architecture.png" width="900">
-</p>
+<img src="images/architecture.png" width="700">
 ---
 
 # Data Pipeline Flow
