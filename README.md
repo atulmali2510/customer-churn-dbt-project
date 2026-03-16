@@ -42,7 +42,7 @@ Power BI / BI Tools
 
 Raw data ingestion from source tables.
 
-![Bronze Layer](images/bronze_layer.png)
+![Bronze Layer](image/bronze_layer.png)
 
 Example model: bronze_retention_risk_analytics
 
@@ -58,7 +58,7 @@ Operations performed:
 - Tenure grouping
 - Data quality improvements
 
-![Silver Layer](images/silver_layer.png)
+![Silver Layer](image/silver_layer.png)
 
 Example model: silver_retention_risk_analytics
 
@@ -68,16 +68,16 @@ https://github.com/atulmali2510/customer-retention-risk-analytics
 ---
 
 ## Churn Summary
-![Gold Churn Summary](images/gold_churn_summary.png)
+![Gold Churn Summary](image/gold_churn_summary.png)
 
 ## Contract Type Analysis
-![Gold Contract Analysis](images/gold_contract_analysis.png)
+![Gold Contract Analysis](image/gold_contract_analysis.png)
 
 ## Payment Method Analysis
-![Gold Payment Analysis](images/gold_payment_analysis.png)
+![Gold Payment Analysis](image/gold_payment_analysis.png)
 
 ## Tenure Analysis
-![Gold Tenure Analysis](images/gold_tenure_analysis.png)
+![Gold Tenure Analysis](image/gold_tenure_analysis.png)
 
 ---
 **Atul Sonawane**
